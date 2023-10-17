@@ -3,7 +3,4 @@
  * SPDX-License-Identifier: BUSL-1.1
  */
 
-.field-title {
-  font-weight: 700;
-  font-size: $size-7;
-}
+export { default } from 'core/helpers/doc-link';
