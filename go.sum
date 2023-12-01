@@ -2145,8 +2145,6 @@ github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce/go.mod h1:YH+1FK
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/errwrap v1.1.0 h1:OxrOeh75EUXMY8TBjag2fzXGZ40LB6IKw45YeGUDY2I=
 github.com/hashicorp/errwrap v1.1.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
-github.com/hashicorp/eventlogger v0.2.5 h1:Z2hqgJDNHAewz/kmluhpOWuC2Ts5JzF3mXt6N5MTr6U=
-github.com/hashicorp/eventlogger v0.2.5/go.mod h1://CHt6/j+Q2lc0NlUB5af4aS2M0c0aVBg9/JfcpAyhM=
 github.com/hashicorp/eventlogger v0.2.7 h1:6Y0lpWa7UUbVTsldIQNAeHfgs12iZJmEVapkPbYBEFE=
 github.com/hashicorp/eventlogger v0.2.7/go.mod h1://CHt6/j+Q2lc0NlUB5af4aS2M0c0aVBg9/JfcpAyhM=
 github.com/hashicorp/go-bexpr v0.1.12 h1:XrdVhmwu+9iYxIUWxsGVG7NQwrhzJZ0vR6nbN5bLgrA=
@@ -2330,8 +2328,8 @@ github.com/hashicorp/vault-plugin-auth-kerberos v0.10.1 h1:nXni7zfOyhOWJBC42iWqI
 github.com/hashicorp/vault-plugin-auth-kerberos v0.10.1/go.mod h1:S0XEzmbUO+iuC44a8wqnL869l6WH0DUMVqxTIEkITys=
 github.com/hashicorp/vault-plugin-auth-kubernetes v0.17.1 h1:MVGosnlKQcgr6z9xrehCi5taYJyRw67JIJMNHaMXSAc=
 github.com/hashicorp/vault-plugin-auth-kubernetes v0.17.1/go.mod h1:KE7jUeiD2KE88CeC3YINWZ6A9B2VXPpzkX4bQgsl2lI=
-github.com/hashicorp/vault-plugin-auth-oci v0.14.2 h1:NcTn5LPRL6lVusPjqGkav+C8LRsy46QKdEk9HElQ5B0=
-github.com/hashicorp/vault-plugin-auth-oci v0.14.2/go.mod h1:FaLJvP+AUbeo4yop49aVit4JW/I9GfajFqI8wpX+b0w=
+github.com/hashicorp/vault-plugin-auth-oci v0.14.3-0.20231201001838-dfe0d5e2947c h1:5Z4zDwBcNx4tBSoA1/KZVSodn4ZVktZkbQ8qxw0V9No=
+github.com/hashicorp/vault-plugin-auth-oci v0.14.3-0.20231201001838-dfe0d5e2947c/go.mod h1:7BvxfV1vIV0uRZ1pyJxfHrq/EcLV9CCX94wfwzAN45M=
 github.com/hashicorp/vault-plugin-database-couchbase v0.9.4 h1:MaKlz3Guy9eVRJvTM4zUqlBzhEVE8LdlvsQSAURaVDo=
 github.com/hashicorp/vault-plugin-database-couchbase v0.9.4/go.mod h1:0cDXDEOSZt7mwBxOa4w2mIK1sioIv2jtflbODK5ZF10=
 github.com/hashicorp/vault-plugin-database-elasticsearch v0.13.3 h1:ngkRoBWXMsfkr6zTbn70z0WWMh7gtfMf0gjtR3k/lSA=

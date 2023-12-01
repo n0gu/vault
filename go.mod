@@ -137,7 +137,7 @@ require (
 	github.com/hashicorp/vault-plugin-auth-jwt v0.17.0
 	github.com/hashicorp/vault-plugin-auth-kerberos v0.10.1
 	github.com/hashicorp/vault-plugin-auth-kubernetes v0.17.1
-	github.com/hashicorp/vault-plugin-auth-oci v0.14.2
+	github.com/hashicorp/vault-plugin-auth-oci v0.14.3-0.20231201001838-dfe0d5e2947c
 	github.com/hashicorp/vault-plugin-database-couchbase v0.9.4
 	github.com/hashicorp/vault-plugin-database-elasticsearch v0.13.3
 	github.com/hashicorp/vault-plugin-database-mongodbatlas v0.10.1
@@ -159,7 +159,7 @@ require (
 	github.com/hashicorp/vault/api v1.10.0
 	github.com/hashicorp/vault/api/auth/approle v0.1.0
 	github.com/hashicorp/vault/api/auth/userpass v0.1.0
-	github.com/hashicorp/vault/sdk v0.10.0
+	github.com/hashicorp/vault/sdk v0.10.2
 	github.com/hashicorp/vault/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab
 	github.com/jackc/pgx/v4 v4.18.1
