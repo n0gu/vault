@@ -65,6 +65,7 @@ import (
 	"github.com/hashicorp/vault/vault/eventbus"
 	"github.com/hashicorp/vault/vault/quotas"
 	vaultseal "github.com/hashicorp/vault/vault/seal"
+	uicustommessages "github.com/hashicorp/vault/vault/ui_custom_messages"
 	"github.com/hashicorp/vault/version"
 	"github.com/patrickmn/go-cache"
 	uberAtomic "go.uber.org/atomic"
@@ -518,7 +519,8 @@ type Core struct {
 	activeNodeReplicationState *uint32
 
 	// uiConfig contains UI configuration
-	uiConfig *UIConfig
+	uiConfig             *UIConfig
+	customMessageManager *uicustommessages.Manager
 
 	// rawEnabled indicates whether the Raw endpoint is enabled
 	rawEnabled bool
@@ -1225,7 +1227,8 @@ func NewCore(conf *CoreConfig) (*Core, error) {
 
 	// UI
 	uiStoragePrefix := systemBarrierPrefix + "ui"
-	c.uiConfig = newUIConfig(conf.EnableUI, uiStoragePrefix, c.physical, c.barrier)
+	c.uiConfig = NewUIConfig(conf.EnableUI, physical.NewView(c.physical, uiStoragePrefix), NewBarrierView(c.barrier, uiStoragePrefix))
+	c.customMessageManager = uicustommessages.NewManager(NewBarrierView(c.barrier, uicustommessages.StoragePrefix))
 
 	// Listeners
 	err = c.configureListeners(conf)
